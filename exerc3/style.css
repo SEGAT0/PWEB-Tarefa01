@@ -1,0 +1,120 @@
+.containerprinc{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 250px;
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    gap: 5px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.container1 div.quad1{
+    background-color: blueviolet;
+    width: 205px;
+    height: 205px;
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 5px;
+    margin-bottom: 500px;
+    margin-top: 30px;
+}
+
+.container2 div.quad2{
+    background-color: rgb(149, 120, 177);
+    width: 100px;
+    height:100px;
+}
+
+.container2 div.quad2a{
+    background-color: rgb(149, 120, 177);
+    width: 100px;
+    height: 100px;
+}
+.container2 div.quad2b{
+    background-color: rgb(149, 120, 177);
+    width: 100px;
+    height: 100px;
+}
+.container2 div.quad2c{
+    background-color: rgb(149, 120, 177);
+    width: 100px;
+    height: 100px;
+}
+
+.containerprinc2{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 250px;
+    width: 500px;
+    margin: auto;
+    margin-top: 0px;
+}
+
+.container3{
+    display: flex;
+    gap: 5px;
+    margin-left: 245px;
+    margin-right: 10px;
+}
+
+.container3 div.quad3{
+    background-color: blueviolet;
+    width: 205px;
+    height: 205px;
+}
+
+.containerprinc3{
+   background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 250px;
+    width: 500px;
+    margin: auto;
+    margin-top: -250px;
+    margin-right: 390px;
+}
+
+
+.container4{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    flex-direction: column;
+    align-content: flex-end;
+    flex-wrap: wrap-reverse;
+}
+
+.container4 div.quad4{
+    background-color: rgb(149, 120, 177);
+    width: 100px;
+    height:100px;
+}
+
+.container4 div.quad4a{
+    background-color: rgb(149, 120, 177);
+    width: 100px;
+    height:100px;
+}
+
+.container4 div.quad4b{
+    background-color: rgb(149, 120, 177);
+    width: 100px;
+    height:100px;
+}
+
+.container4 div.quad4c{
+    background-color: rgb(149, 120, 177);
+    width: 100px;
+    height:100px;
+}

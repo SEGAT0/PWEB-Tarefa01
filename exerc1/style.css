@@ -1,0 +1,77 @@
+
+     body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10%;
+        }
+
+        .background{
+            background: rgb(199, 190, 190);
+            padding: 15px;
+            width: 70%;
+        }
+
+        .background .container{
+            display: flex;
+            flex-direction: row; 
+        }
+
+        .quad1{
+            background: rgb(221, 137, 116);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 400px;
+            height: 355px;
+        }
+       
+        .container2{
+            display: flex;
+            flex-direction: column;
+            width: 550px;
+        }
+
+        .quad2{
+            background: rgb(166, 243, 66);
+            text-align: center;
+            height: 28%;
+            width: 503px;
+            padding: 1rem;
+            margin-left: 15px;
+            color: white;
+        }
+        
+        .container3{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .quad3{
+            background: rgb(252, 120, 142);
+            width: 250px;
+            height: 230px;
+            margin-left: 15px;
+            margin-top: 15px;
+        }
+
+        .container4{
+            display: flex;
+            flex-direction: column;
+            margin-top: 15px;
+        }
+
+        .container4 .quad4a{
+            background: rgb(0, 38, 253);
+            width: 300px;
+            height: 105px;
+            margin-left: 15px;
+        }
+        
+        .container4 .quad4b{
+            background: rgb(0, 38, 253);
+            width: 300px;
+            height: 110px;
+            margin-top: 15px;
+            margin-left: 15px;
+        }
